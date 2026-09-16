@@ -1,8 +1,7 @@
 schema_version: 1
 
 context:
-  python_min: "3.11"
-  version: "1.1.2"
+  version: "1.2.0"
 
 package:
   name: livvext
@@ -10,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/livvext/livvext-${{ version }}.tar.gz
-  sha256: b1e98bf4ba71e69366b1509b3d9b807908743fa236dce6a39800fb77c5eccbb5
+  sha256: 8bfef4add8a0886c12620b002b1a1adcc13a6cb0a92a6b386bc012520f84f4cf
 
 build:
   number: 0
@@ -47,7 +46,7 @@ requirements:
     - pybtex >=0.25.1
     - f90nml >=1.5
     - loguru >=0.7.3
-    - livvkit >=3.3.1
+    - livvkit >=3.4.0
 
 tests:
   - python:
